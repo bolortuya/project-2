@@ -30,20 +30,25 @@ h1{
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
 }
-.container #par1{
+.container{
+  position: relative;
+}
+.container .par1{
   width: 50%;
   margin: auto;
-  float: left;
-  border: 5px;
-  padding: 10px;
-  overflow: hidden;
+  padding: 1px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 100px;
+  top: 120px;
+  border: 1px solid red;
 }
 .container .img{
   border: 5px purple solid;
   width: 40%;
-  float: right;
   margin: auto;
-  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
 }
 .container h1{
   font-family: Tahoma;

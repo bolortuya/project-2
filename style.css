@@ -1,3 +1,50 @@
-#header{
-background: green
+
+html{
+  background-color: #f3ebff;
+}
+header{
+  background-color: #d6bbfc;	;
+  font-size: 24px;
+}
+nav ul li:hover {
+  background-color: #ffff1a;
+  font color: purple;
+
+}
+.ul {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 0;
+}
+nav ul li {
+  display:inline;
+  font-family: Georgia, serif;
+
+}
+ul li {
+  padding: 10px 60px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.container #par1{
+  width: 50%;
+  margin: auto;
+  float: left;
+  border: 5px;
+  padding: 10px;
+  overflow: hidden;
+}
+.container .img{
+  border: 5px purple solid;
+  width: 40%;
+  float: right;
+  margin: auto;
+  overflow: hidden;
+}
+.container h1{
+  font-family: Tahoma;
 }

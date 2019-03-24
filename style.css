@@ -29,6 +29,8 @@ a:hover{
   text-decoration: underline;
   text-decoration-color: yellow;
   padding-top: 22px;
+  padding-left: 100px;
+
 }
 .container{
   position: relative;
@@ -50,8 +52,7 @@ a:hover{
   margin: auto;
   position: absolute;
   left: 140px;
-  top: 20px;
-}
+  top: 20px;}
 .resume_container{
   background-color: #FFFFE0;
   border: solid;
@@ -67,6 +68,7 @@ a:hover{
 }
 #name{
   text-align: center;
+  padding-top: 10px;
 }
 #contact_id li{
   display: inline;
@@ -104,8 +106,97 @@ h5{
  }
  .proj ul{
    margin: 0;
-   padding-bottom: 0;
  }
  .skills h3{
    margin: 0;
  }
+ .hobby-class{
+   background-color: black;
+ }
+.hobby-container{
+  background-color: black;
+ }
+ .hobby-container h1{
+   text-align: center;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   color: yellow;
+  }
+  #p1{
+    border: dotted;
+    color: white;
+    font-family: Jazz LET, fantasy;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.3%;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-size: 20px;
+    }
+#pic1{
+  border: solid white;
+  float: left;
+  position: relative;
+  bottom: 170px;
+  left: 80px;
+  width: 33.3%;
+  border-radius: 50%;
+}
+#pic2 {
+  width: 45%;
+  border: solid white;
+  margin: auto;
+  position: relative;
+  right: 285px;
+  bottom: 35px;
+  border-radius: 8px;
+}
+#p2{
+  border: dotted;
+  color: white;
+  font-family: Jazz LET, fantasy;
+  font-size: 20px;
+  margin: auto;
+  width: 33.3%;
+  position: relative;
+  left: 150px;
+  top: 130px;
+}
+#p3{
+  border: dotted white;
+  color: white;
+  font-family: Jazz LET, fantasy;
+  width: 45%;
+  font-size: 20px;
+  position: relative;
+  left: 450px;
+}
+#pic3{
+  width: 45%;
+  border: solid white;
+  margin: auto;
+  position: relative;
+  left: 25px;
+  bottom: 280px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.p4-container{
+  margin: auto;
+  position: relative;
+  bottom: 280px;
+}
+#p4{
+  color: yellow;
+  margin-left: 250px;
+  font-family: Jazz LET, fantasy;
+  font-size: 20px;
+}
+iframe{
+  border: solid white;
+  position:relative;
+  width: 500px;
+  height: 300px;
+  left: 200px;
+  border-radius: 8px;
+}

@@ -1,55 +1,111 @@
 
-html{
-  background-color: #f3ebff;
+.index{
+  background-image: url("pictures/index.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat -x;
 }
-header{
-  background-color: #d6bbfc;	;
-  font-size: 24px;
-}
-nav ul li:hover {
-  background-color: #ffff1a;
-  font color: purple;
-
-}
-.ul {
-  display: block;
+header
+{
   text-align: center;
+}
+#navbar li{
+  display: inline;
+  padding: 20px;
+  font color: green;
+}
+#navbar a{
   text-decoration: none;
-  border-bottom: 0;
+  font-size: 24px;
+  background-color: white;
 }
-nav ul li {
-  display:inline;
-  font-family: Georgia, serif;
-
+a:hover{
+  color: blue;
 }
-ul li {
-  padding: 10px 60px;
+.container h2{
+  font-family: cursive;
+  font-size: 24px;
   text-align: center;
-}
-h1{
-  text-align: center;
-  font-family: Impact, Charcoal, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  padding-top: 22px;
 }
 .container{
   position: relative;
+  padding-bottom: 300px;
 }
 .container .par1{
-  width: 50%;
+  width: 30%;
   margin: auto;
-  padding: 1px;
   box-sizing: border-box;
   position: absolute;
-  right: 100px;
-  top: 120px;
-  border: 1px solid red;
+  left: 490px;
+  top: 60px;
+  font-family: "Times New Roman";
+  font-size: 20px;
 }
 .container .img{
-  border: 5px purple solid;
-  width: 40%;
+  border: 3px solid;
+  width: 25%;
   margin: auto;
-  box-sizing: border-box;
   position: absolute;
+  left: 140px;
+  top: 20px;
 }
-.container h1{
-  font-family: Tahoma;
+.resume_container{
+  background-color: #FFFFE0;
+  border: solid;
+  width: 950px;
+  padding-left: 40px;
+  margin: 80px;
+  box-sizing:border-box;
+  margin: auto;
+  position: relative;
 }
+.contact{
+  background-color: white;
+}
+#name{
+  text-align: center;
+}
+#contact_id li{
+  display: inline;
+  padding-right: 125px;
+  font-weight: bold;
+  font-size: 17px;
+}
+h3{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif Impact, Charcoal, sans-serif
+  font-size: 16px;
+  background-color: white;
+}
+h4{
+  font-family: Charcoal, sans-serif
+}
+h5{
+  font-style: oblique;
+  font-size: 14px;
+}
+ #courses{
+   width: 800px;
+   word-spacing: 0.2em;
+ }
+ .exp{
+   box-sizing: border-box;
+   word-spacing: 0.2em;
+ }
+ .exp ul{
+   margin: 0;
+   padding-right: 20px;
+ }
+ .proj h3{
+   margin-top: 1px;
+   padding: 0;
+ }
+ .proj ul{
+   margin: 0;
+   padding-bottom: 0;
+ }
+ .skills h3{
+   margin: 0;
+ }

@@ -1,9 +1,8 @@
-
 .index{
   background-image: url("pictures/index.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: repeat -x;
+  background-repeat: repeat;
 }
 header
 {

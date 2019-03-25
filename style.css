@@ -12,7 +12,6 @@ header
 #navbar li{
   display: inline;
   padding: 20px;
-  font color: green;
 }
 #navbar a{
   text-decoration: none;
@@ -77,7 +76,7 @@ a:hover{
   font-size: 17px;
 }
 h3{
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif Impact, Charcoal, sans-serif
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif Impact, Charcoal, sans-serif;
   font-size: 16px;
   background-color: white;
 }

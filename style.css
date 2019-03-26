@@ -1,5 +1,5 @@
 .index{
-  background-image: url("pictures/index.jpg");
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -27,6 +27,7 @@ a:hover{
   text-decoration: underline;
   padding-top: 60px;
   padding-left: 60px;
+  color: white;
 }
 .container{
   position: relative;
@@ -41,6 +42,7 @@ a:hover{
   top: 10px;
   font-family: "Times New Roman";
   font-size: 20px;
+  color: white;
 }
 .container .img{
   border: 3px solid;
@@ -48,7 +50,10 @@ a:hover{
   margin: auto;
   position: absolute;
   left: 140px;
-  top: 20px;}
+  top: 20px;
+  border-radius: 8px;
+  border: solid white;
+}
 .resume_container{
   background-color: #FFFFE0;
   border: solid;

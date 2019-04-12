@@ -20,7 +20,7 @@ header
 a:hover{
   color: blue;
 }
-.container h2{
+h2{
   font-family: cursive;
   font-size: 24px;
   text-align: center;
@@ -35,7 +35,7 @@ a:hover{
 }
 .container .par1{
   width: 30%;
-  margin: auto;
+  margin: 0 auto;
   box-sizing: border-box;
   position: absolute;
   left: 490px;
@@ -48,9 +48,8 @@ a:hover{
   border: 3px solid;
   width: 25%;
   margin: auto;
-  position: absolute;
+  position: relative;
   left: 140px;
-  top: 20px;
   border-radius: 8px;
   border: solid white;
 }

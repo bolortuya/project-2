@@ -20,11 +20,13 @@ header
 a:hover{
   color: blue;
 }
-h2{
+.index-container #h2{
   text-align: center;
   text-decoration: underline;
   color: white;
   font-family: cursive;
+  position: relative;
+  left: 200px;
 }
 .index-container{
   width: 950px;

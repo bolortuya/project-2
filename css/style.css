@@ -26,7 +26,7 @@ a:hover{
   color: white;
   font-family: cursive;
   position: relative;
-  left: 200px;
+  left: 220px;
 }
 .index-container{
   width: 950px;
@@ -41,7 +41,6 @@ a:hover{
   border-radius: 8px;
   border: solid white;
   margin-left: 220px;
-
 }
 .index-container #par1{
   width: 350px;

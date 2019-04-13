@@ -26,22 +26,27 @@ h2{
   color: white;
   font-family: cursive;
 }
-.container #img{
-  border: 3px solid;
+.index-container{
+  border: solid white;
+  width: 950px;
+  position: relative;
+}
+.index-container .img{
+  border: 20px solid;
   width: 25%;
   margin: auto;
   position: absolute;
   border-radius: 8px;
   border: solid white;
 }
-.container #par1{
+.index-container #par1{
+  width: 350px;
   margin: 0 auto;
-  position: absolute;
+  box-sizing: border-box;
+  position: relative;
   font-family: "Times New Roman";
   font-size: 20px;
   color: white;
-  overflow: hidden;
-
 }
 
 .resume_container{
@@ -116,7 +121,7 @@ h5{
   text-align: center;
   color: yellow;
 }
-p{
+.hobby-container p{
   position: relative;
   bottom: 200px;
   width: 400px;
